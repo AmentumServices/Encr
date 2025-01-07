@@ -1,6 +1,6 @@
 
-Getting Started with Encryption Wizard (EW) version 4.0.2
-as of 07 Jun 2023
+Getting Started with Encryption Wizard (EW) version 4.0.3
+as of 15 Dec 2023
 -----------------------------------------------------
 
 Quick Start Guide
