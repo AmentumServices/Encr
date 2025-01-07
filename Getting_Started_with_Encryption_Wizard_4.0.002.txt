@@ -1,0 +1,72 @@
+
+Getting Started with Encryption Wizard (EW) version 4.0.2
+as of 07 Jun 2023
+-----------------------------------------------------
+
+Quick Start Guide
+
+1.   Download and install Java SE from
+        https://jdk.java.net/
+     or
+        https://java.com/
+     (Many computers already have Java installed.)
+
+2.   Download EW from https://mpc4.mission-planning.org or
+     https://nexus.seicdevops.com/#browse/browse:Asset-Dev-BUE:BUE%20Builds%20-%20Resources%2FEncryption%20Wizard
+     (requires a SEIC DevOps account).  Alternatively, check for
+     additional download links at https://www.getTENS.online
+
+3.   Open the .zip file and extract the contents.  We strongly
+     recommend expanding the files rather than simply browsing
+     inside the .zip file.
+
+3a.  If on MacOS, select the files and choose File > Get Info (or
+     press Command-I) and make sure the access under "Sharing and
+     Permissions" includes read permission.
+
+     Go to Settings > Security and Privacy, and change "Allow
+     application downloaded from" to "Anywhere".
+
+4.   If on MS-Windows, MacOS, or a Linux graphical desktop, double-
+     click the .jar file to start.  Users on MS-Windows may also use
+     the fallback .bat file if needed.
+
+     If at a Linux command line, type "java -jar EW-*.jar"
+     (using the appropriate exact file name).
+
+     All platforms may override the Java location via the environment
+     variable AFRL_EW_JAVACMD as described in the User Guide.
+
+5.   Optionally, in MS-Windows click 'Install' under the Tools menu
+     to make EW more user-friendly.  In Linux, a wrapper script can
+     be generated to ease command-line use.
+
+6.   Drag-and-drop files/folders into the EW window.
+
+7.   Click 'Encrypt' for individually encrypted files or 'Archive'
+     for a many-into-one, compressed, and encrypted file.
+
+8.   Enter your key(s) and optionally enter metadata.
+
+9.   Your file is now encrypted.
+
+10.  To decrypt, drag the .wzd/.wza file into Encryption Wizard and
+     click 'Decrypt' for individual files or 'Expand' to unpack an
+     encrypted archive.  If installed, you may double-click the
+     encrypted file.
+
+
+Encryption Wizard's key shortfall remains Java's fragility with MS-Windows
+smartcard (CAC/PIV Card) support.  Some layer of middleware providing the
+required PKCS#11 support is typically required, even with the most recent
+versions of Java, MS-Windows, and EW.
+
+For more information, consult the Help menu within Encryption Wizard,
+the enclosed Encryption Wizard User Guide (a PDF file), or our website
+at https://www.getTENS.online .
+
+Air Force Life Cycle Management Center
+AFLCMC/HBM
+16 Eglin St, Bldg 1604
+Hanscom AFB, MA 01731
+AFLCMC.ewizard.outreach@us.af.mil
